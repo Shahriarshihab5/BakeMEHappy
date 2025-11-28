@@ -14,7 +14,7 @@ function Footer() {
             <h4>Contact Us</h4>
             <div className="contact-item">
               <span className="icon">📞</span>
-              <a href="tel:+8801XXXXXXXXX">+880 1XXX-XXXXXX</a>
+              <a href="tel:+8801XXXXXXXXX">01723653535</a>
             </div>
             <div className="contact-item">
               <span className="icon">📧</span>
@@ -30,7 +30,7 @@ function Footer() {
             <h4>Follow Us</h4>
             <div className="social-links">
               <a 
-                href="https://www.facebook.com/yourpage" 
+                href="https://www.facebook.com/BakeeMeeHappyy" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="social-link facebook"
@@ -41,7 +41,7 @@ function Footer() {
                 <span>Facebook</span>
               </a>
               <a 
-                href="https://wa.me/8801XXXXXXXXX" 
+                href="https://wa.me/+8801723653535" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="social-link whatsapp"
