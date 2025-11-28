@@ -26,7 +26,7 @@ function Home() {
     {
       id: 3,
       name: 'Rosomalai Cake',
-      image: '/public/Rosomalai cake.jpg',
+      image: '/Rosomalai-cake.jpg',
       description: 'Traditional fusion dessert',
       price: '৳1500',
       rating: 5,
@@ -38,11 +38,24 @@ function Home() {
   return (
     <div className="home">
       <div className="hero-section">
-        <h1>Welcome to BakeMEHappy</h1>
-        <p>Delicious cakes made with love, just for you!</p>
-        <Link to="/order">
-          <button className="cta-button">Order Now</button>
-        </Link>
+        <video 
+          autoPlay 
+          loop 
+          muted 
+          playsInline
+          className="hero-video"
+        >
+          <source src="https://assets.mixkit.co/videos/preview/mixkit-people-pouring-chocolate-on-a-freshly-baked-pineapple-cake-43220-large.mp4" type="video/mp4" />
+          <source src="https://assets.mixkit.co/videos/preview/mixkit-baker-preparing-a-cake-43348-large.mp4" type="video/mp4" />
+        </video>
+        <div className="hero-overlay"></div>
+        <div className="hero-content">
+          <h1>Welcome to BakeMEHappy</h1>
+          <p>Delicious cakes made with love, just for you!</p>
+          <Link to="/order">
+            <button className="cta-button">Order Now</button>
+          </Link>
+        </div>
       </div>
       
       <div className="featured-cakes">
