@@ -42,7 +42,7 @@ function Products() {
       id: 3,
       name: 'Rosomalai Cake',
       category: 'cakes',
-      image: '/public/Rosomalai cake.jpg',
+      image: '/public/Rosomalaicake.jpg',
       description: 'Traditional fusion dessert with pistachio',
       price: '৳1500',
       rating: 5,
